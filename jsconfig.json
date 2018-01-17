@@ -1,0 +1,29 @@
+{
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "node_modules"
+    ],
+    "compilerOptions": {
+        "noImplicitAny": true,
+        "noImplicitThis": true,
+        "alwaysStrict": true,
+        "strictNullChecks": false,
+        "target": "es5",
+        "sourceMap": true,
+        "experimentalDecorators": true,
+        "lib": [
+            "dom",
+            "es6"
+        ],
+        "baseUrl": "./",
+        "module": "es2015",
+        "moduleResolution": "node",
+        "paths": {
+            "@/*": [
+                "src/*"
+            ]
+        }
+    }
+}

@@ -1,2 +1,2 @@
 # poi
- Library package for a webpack
+poi.js is a package of Webpack
